@@ -33,7 +33,6 @@ int main(void)
     // Signal about turning on the device
     HW_Vibro_Toggle(false);
     HW_LCD_SetISINKMode(false);
-    HW_LCD_Initialize();
     HW_LCD_SetISINKParameters(ISINK_CH0, IC_16mA, true);
 
     while (1)
